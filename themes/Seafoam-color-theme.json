@@ -33,6 +33,16 @@
             }
         },
         {
+            "name": "All Keywords",
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#921010"
+            }
+        },
+        {
             "name": "Control Flow (Keywords)",
             "scope": [
                 "keyword.control",
@@ -43,6 +53,24 @@
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#921010"
+            }
+        },
+        {
+            "name": "Operators, Braces, Brackets, Parentheses",
+            "scope": [
+                "keyword.operator",
+                "punctuation.definition.parameters",
+                "punctuation.definition.array",
+                "punctuation.definition.dictionary",
+                "punctuation.definition.block",
+                "punctuation.section.embedded",
+                "meta.brace.round",
+                "meta.brace.square",
+                "meta.brace.curly"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#5b470a"
             }
         },
         {
@@ -75,13 +103,15 @@
             }
         },
         {
-            "name": "Types / Classes",
+            "name": "Types / Classes (Built-in and User Defined)",
             "scope": [
                 "entity.name.type",
                 "entity.name.class",
-                "support.type"
+                "support.type",
+                "support.class"
             ],
             "settings": {
+                "fontStyle": "underline",
                 "foreground": "#09523a"
             }
         },
@@ -95,15 +125,6 @@
             ],
             "settings": {
                 "foreground": "#800e80"
-            }
-        },
-        {
-            "name": "Operators",
-            "scope": [
-                "keyword.operator"
-            ],
-            "settings": {
-                "foreground": "#5b470a"
             }
         }
     ]
