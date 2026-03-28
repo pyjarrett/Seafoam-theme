@@ -80,7 +80,8 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#1141a0"
+                "fontStyle": "italic",
+                "foreground": "#494908"
             }
         },
         {
@@ -99,7 +100,7 @@
                 "meta.function-call"
             ],
             "settings": {
-                "foreground": "#6514b7"
+                "foreground": "#1141a0"
             }
         },
         {
@@ -112,7 +113,7 @@
             ],
             "settings": {
                 "fontStyle": "underline",
-                "foreground": "#09523a"
+                "foreground": "#6514b7"
             }
         },
         {
@@ -125,6 +126,66 @@
             ],
             "settings": {
                 "foreground": "#800e80"
+            }
+        },
+        {
+            "name": "Language Specific: Python Function Storage",
+            "scope": [
+                "storage.type.function.python"
+            ],
+            "settings": {
+                "fontStyle": "bold underline",
+                "foreground": "#1141a0"
+            }
+        },
+        {
+            "name": "Language Specific: C++ Mutable Elements",
+            "scope": [
+                "variable.other.readwrite.cpp"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#494908"
+            }
+        },
+        {
+            "name": "Language Specific: Markdown Headers",
+            "scope": [
+                "markup.heading"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#095252"
+            }
+        },
+        {
+            "name": "Language Specific: Markdown Bold/Italic",
+            "scope": [
+                "markup.bold",
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground": "#800e80"
+            }
+        },
+        {
+            "name": "Language Specific: F# Variable",
+            "scope": [
+                "variable.fsharp"
+            ],
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "#494908"
+            }
+        },
+        {
+            "name": "Language Specific: Ada Keywords",
+            "scope": [
+                "keyword.other.ada"
+            ],
+            "settings": {
+                "fontStyle": "bold underline",
+                "foreground": "#921010"
             }
         }
     ]
