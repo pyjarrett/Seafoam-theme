@@ -1,0 +1,22 @@
+{
+  "name": "seafoam-theme",
+  "displayName": "Seafoam",
+  "description": "A seafoam green theme based on Faber Birren's principles",
+  "version": "0.0.1",
+  "publisher": "jules",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seafoam",
+        "uiTheme": "vs",
+        "path": "./themes/Seafoam-color-theme.json"
+      }
+    ]
+  }
+}

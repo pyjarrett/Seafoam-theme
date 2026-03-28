@@ -1,0 +1,110 @@
+{
+    "name": "Seafoam",
+    "colors": {
+        "editor.background": "#e5f7ed",
+        "editor.foreground": "#095209",
+        "activityBar.background": "#d0ebd9",
+        "activityBar.foreground": "#095209",
+        "activityBarBadge.background": "#921010",
+        "activityBarBadge.foreground": "#ffffff",
+        "sideBar.background": "#dcf2e5",
+        "sideBar.foreground": "#095209",
+        "sideBarTitle.foreground": "#095209",
+        "editorLineNumber.foreground": "#09523a",
+        "editorCursor.foreground": "#921010",
+        "editor.selectionBackground": "#9ce6bc",
+        "statusBar.background": "#d0ebd9",
+        "statusBar.foreground": "#095209",
+        "terminal.background": "#e5f7ed",
+        "terminal.foreground": "#095209",
+        "list.activeSelectionBackground": "#9ce6bc",
+        "list.hoverBackground": "#c1e8d2"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#494949"
+            }
+        },
+        {
+            "name": "Control Flow (Keywords)",
+            "scope": [
+                "keyword.control",
+                "keyword.operator.new",
+                "keyword.operator.logical",
+                "keyword.operator.expression"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#921010"
+            }
+        },
+        {
+            "name": "Mutable Elements (Variables, Parameters)",
+            "scope": [
+                "variable",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#1141a0"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#6e3d0c"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#6514b7"
+            }
+        },
+        {
+            "name": "Types / Classes",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#09523a"
+            }
+        },
+        {
+            "name": "Constants / Numbers",
+            "scope": [
+                "constant",
+                "constant.numeric",
+                "constant.language",
+                "support.constant"
+            ],
+            "settings": {
+                "foreground": "#800e80"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#5b470a"
+            }
+        }
+    ]
+}
