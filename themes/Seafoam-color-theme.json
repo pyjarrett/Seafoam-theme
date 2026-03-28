@@ -48,7 +48,16 @@
                 "keyword.control",
                 "keyword.operator.new",
                 "keyword.operator.logical",
-                "keyword.operator.expression"
+                "keyword.operator.expression",
+                "keyword.control.ada",
+                "keyword.other.ada",
+                "keyword.control.flow.python",
+                "keyword.control.import.python",
+                "keyword.control.directive.cpp",
+                "keyword.control.switch.cpp",
+                "keyword.control.goto.cpp",
+                "keyword.control.fsharp",
+                "keyword.fsharp"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -56,7 +65,7 @@
             }
         },
         {
-            "name": "Operators, Braces, Brackets, Parentheses",
+            "name": "Operators, Braces, Brackets, Parentheses (Strict NO EMPHASIS)",
             "scope": [
                 "keyword.operator",
                 "punctuation.definition.parameters",
@@ -66,7 +75,13 @@
                 "punctuation.section.embedded",
                 "meta.brace.round",
                 "meta.brace.square",
-                "meta.brace.curly"
+                "meta.brace.curly",
+                "keyword.operator.arithmetic.cpp",
+                "keyword.operator.assignment.cpp",
+                "keyword.operator.arithmetic.python",
+                "keyword.operator.assignment.python",
+                "entity.name.operator.ada",
+                "keyword.symbol.fsharp"
             ],
             "settings": {
                 "fontStyle": "",
@@ -77,7 +92,12 @@
             "name": "Mutable Elements (Variables, Parameters)",
             "scope": [
                 "variable",
-                "variable.parameter"
+                "variable.parameter",
+                "variable.name.ada",
+                "entity.name.variable.ada",
+                "variable.parameter.function.language.python",
+                "variable.other.readwrite.cpp",
+                "variable.other.local.cpp"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -85,9 +105,23 @@
             }
         },
         {
+            "name": "Mutable F# Specific",
+            "scope": [
+                "variable.fsharp",
+                "variable.other.binding.fsharp",
+                "variable.parameter.fsharp"
+            ],
+            "settings": {
+                "fontStyle": "italic underline",
+                "foreground": "#494908"
+            }
+        },
+        {
             "name": "Strings",
             "scope": [
-                "string"
+                "string",
+                "string.quoted.double.ada",
+                "markup.inline.raw.string.markdown"
             ],
             "settings": {
                 "foreground": "#6e3d0c"
@@ -97,9 +131,24 @@
             "name": "Functions",
             "scope": [
                 "entity.name.function",
-                "meta.function-call"
+                "meta.function-call",
+                "entity.name.function.ada",
+                "entity.name.subprogram.ada",
+                "entity.name.function.call.cpp",
+                "entity.name.function.definition.cpp",
+                "entity.name.function.python"
             ],
             "settings": {
+                "foreground": "#1141a0"
+            }
+        },
+        {
+            "name": "Functions Python Specific (Definition)",
+            "scope": [
+                "storage.type.function.python"
+            ],
+            "settings": {
+                "fontStyle": "bold underline",
                 "foreground": "#1141a0"
             }
         },
@@ -109,7 +158,13 @@
                 "entity.name.type",
                 "entity.name.class",
                 "support.type",
-                "support.class"
+                "support.class",
+                "entity.name.type.cpp",
+                "entity.name.type.class.cpp",
+                "entity.name.type.class.python",
+                "entity.name.type.fsharp",
+                "entity.name.type.namespace.fsharp",
+                "entity.name.type.ada"
             ],
             "settings": {
                 "fontStyle": "underline",
@@ -129,29 +184,17 @@
             }
         },
         {
-            "name": "Language Specific: Python Function Storage",
+            "name": "Markdown Headers",
             "scope": [
-                "storage.type.function.python"
-            ],
-            "settings": {
-                "fontStyle": "bold underline",
-                "foreground": "#1141a0"
-            }
-        },
-        {
-            "name": "Language Specific: C++ Mutable Elements",
-            "scope": [
-                "variable.other.readwrite.cpp"
-            ],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#494908"
-            }
-        },
-        {
-            "name": "Language Specific: Markdown Headers",
-            "scope": [
-                "markup.heading"
+                "heading.1.markdown",
+                "heading.2.markdown",
+                "heading.3.markdown",
+                "heading.4.markdown",
+                "heading.5.markdown",
+                "heading.6.markdown",
+                "markup.heading.markdown",
+                "markup.heading.setext.1.markdown",
+                "markup.heading.setext.2.markdown"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -159,33 +202,24 @@
             }
         },
         {
-            "name": "Language Specific: Markdown Bold/Italic",
+            "name": "Markdown Bold/Italic",
             "scope": [
-                "markup.bold",
-                "markup.italic"
+                "markup.bold.markdown",
+                "markup.italic.markdown"
             ],
             "settings": {
                 "foreground": "#800e80"
             }
         },
         {
-            "name": "Language Specific: F# Variable",
+            "name": "Markdown Lists and Quotes",
             "scope": [
-                "variable.fsharp"
+                "markup.list.numbered.markdown",
+                "markup.list.unnumbered.markdown",
+                "markup.quote.markdown"
             ],
             "settings": {
-                "fontStyle": "italic underline",
-                "foreground": "#494908"
-            }
-        },
-        {
-            "name": "Language Specific: Ada Keywords",
-            "scope": [
-                "keyword.other.ada"
-            ],
-            "settings": {
-                "fontStyle": "bold underline",
-                "foreground": "#921010"
+                "foreground": "#09523a"
             }
         }
     ]
