@@ -1,7 +1,7 @@
 {
-  "name": "seafoam-theme",
-  "displayName": "Seafoam",
-  "description": "A seafoam green theme based on Faber Birren's principles",
+  "name": "intrigued-theme",
+  "displayName": "Intrigued-Theme",
+  "description": "A seafoam green theme based on Faber Birren's principles with >=4.5 WCAG contrast",
   "version": "0.0.1",
   "publisher": "jules",
   "engines": {
@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Seafoam",
+        "label": "Intrigued-Theme",
         "uiTheme": "vs",
-        "path": "./themes/Seafoam-color-theme.json"
+        "path": "./themes/Intrigued-color-theme.json"
       }
     ]
   }
