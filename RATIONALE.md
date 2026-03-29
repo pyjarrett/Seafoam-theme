@@ -18,10 +18,10 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
     * **C++**: `keyword.control.directive.cpp`, `keyword.control.switch.cpp`, `keyword.control.goto.cpp`
     * **F#**: `keyword.control.fsharp`
 
-### 2. Operational Equipment and Functions (Blue - `#0c59f2`)
+### 2. Operational Equipment and Functions (Mid Blue - `#1f68b1`)
 * **Birren Principle**: Blue is used for notices, equipment under repair, or operational controls.
 * **Software Application**: Used for functions, methods, and definitions. Functions are the machines and operational units of the code.
-* **Emphasis**: **Bold** to ensure function identifiers are highly apparent to the user.
+* **Emphasis**: No physical emphasis (no bold, italic, or underline). Function identifiers are made highly apparent strictly through a unique, distinct Mid Blue color to keep the text flow clean.
 * **Language Specific Tokens**:
     * **General**: `entity.name.function`, `support.function`
     * **Python**: `entity.name.function.python`, `storage.type.function.python`
@@ -38,10 +38,10 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
     * **Python**: `variable.parameter.function.language.python`
     * **Ada**: `variable.name.ada`, `entity.name.variable.ada`
 
-### 4. Structural Types and Blueprints (Purple - `#8c30e8` & Dark Teal - `#0c7250`)
-* **Birren Principle**: Purple indicates specific hazards (radiation), but in a modern context, we use it to represent the structural blueprints and rigid definitions.
-* **Software Application**: Used for classes, types, and structural definitions. Types provide the foundational structure of the data. Bolding ensures these type identifiers are highly apparent.
-* **Emphasis**: **Bold**.
+### 4. Structural Types and Blueprints (Dark Pink - `#be2170` & Dark Teal - `#0c7250`)
+* **Birren Principle**: Purple/Pink indicates specific hazards (radiation), but in a modern context, we use it to represent the structural blueprints and rigid definitions.
+* **Software Application**: Used for classes, types, and structural definitions. Types provide the foundational structure of the data.
+* **Emphasis**: No physical emphasis (no bold, italic, or underline). Types are made highly apparent using a unique Dark Pink color to distinguish them structurally without relying on bolding.
 * **Language Specific Tokens**:
     * **C++**: `entity.name.type.cpp`, `entity.name.type.class.cpp`
     * **Python**: `entity.name.type.class.python`
