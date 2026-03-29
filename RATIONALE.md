@@ -10,8 +10,8 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
 
 ### 1. Control Flow and Critical Keywords (Red - `#d00a0a`)
 * **Birren Principle**: Red is used for fire protection, danger, and critical stop controls.
-* **Software Application**: Used for `keyword.control`, `keyword.operator.logical`, and language-specific critical keywords. Control flow dictates the fundamental logic and execution path of the program, requiring immediate visual attention.
-* **Emphasis**: **Bold** or **Bold** depending on criticality.
+* **Software Application**: Used for `keyword.control`, `keyword.operator.logical`, and language-specific critical keywords. Control flow dictates the fundamental logic and execution path of the program, requiring immediate visual attention. General keywords are left un-bolded to prioritize and not draw attention away from control flow.
+* **Emphasis**: **Bold**.
 * **Language Specific Tokens**:
     * **Ada**: `keyword.control.ada`, `keyword.other.ada` (**Bold**)
     * **Python**: `keyword.control.flow.python`, `keyword.control.import.python`
@@ -53,10 +53,11 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
 * **Software Application**: Used for strings and textual data (`string`, `string.quoted.double.ada`, `markup.inline.raw.string.markdown`).
 * **Emphasis**: Regular. Strings are raw data being processed by the system.
 
-### 6. Informational Structure (Markdown) (Cyan - `#0c7272` & Magenta - `#b313b3`)
-* **Software Application**: Markdown headers and markup elements use strong colors like Magenta and Cyan to create a distinct visual hierarchy, separating documentation structure from standard code elements.
+### 6. Informational Structure (Markdown & Modifiers) (Cyan - `#0c7272` & Magenta - `#b313b3`)
+* **Software Application**: Markdown headers, markup elements, and language modifier keywords (`const`, `volatile`, `override`, `final`) use strong colors like Magenta and Cyan to create a distinct visual hierarchy, separating structural boundaries and meta-information from standard code elements.
 * **Emphasis**: **Bold**.
 * **Language Specific Tokens**:
+    * **Modifiers**: `storage.modifier`, `storage.modifier.cpp`, `keyword.other.const.cpp` (**Bold Cyan**)
     * **Markdown Headers**: `heading.1.markdown`, `heading.2.markdown`, `markup.heading.markdown` (**Bold Cyan**)
     * **Markdown Bold/Italic**: `markup.bold.markdown`, `markup.italic.markdown` (Magenta)
     * **Markdown Lists/Quotes**: `markup.list.unnumbered.markdown`, `markup.quote.markdown` (Dark Teal)
