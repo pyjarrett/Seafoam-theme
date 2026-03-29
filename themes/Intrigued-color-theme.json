@@ -140,8 +140,8 @@
                 "entity.name.function.python"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#0c59f2"
+                "fontStyle": "",
+                "foreground": "#1f68b1"
             }
         },
         {
@@ -150,8 +150,8 @@
                 "storage.type.function.python"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#0c59f2"
+                "fontStyle": "",
+                "foreground": "#1f68b1"
             }
         },
         {
@@ -169,8 +169,8 @@
                 "entity.name.type.ada"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#8c30e8"
+                "fontStyle": "",
+                "foreground": "#be2170"
             }
         },
         {
