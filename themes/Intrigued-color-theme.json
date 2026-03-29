@@ -1,22 +1,22 @@
 {
-    "name": "Seafoam",
+    "name": "Intrigued-Theme",
     "colors": {
         "editor.background": "#e5f7ed",
-        "editor.foreground": "#095209",
+        "editor.foreground": "#686868",
         "activityBar.background": "#d0ebd9",
-        "activityBar.foreground": "#095209",
-        "activityBarBadge.background": "#921010",
+        "activityBar.foreground": "#686868",
+        "activityBarBadge.background": "#d00a0a",
         "activityBarBadge.foreground": "#ffffff",
         "sideBar.background": "#dcf2e5",
-        "sideBar.foreground": "#095209",
-        "sideBarTitle.foreground": "#095209",
-        "editorLineNumber.foreground": "#09523a",
-        "editorCursor.foreground": "#921010",
+        "sideBar.foreground": "#686868",
+        "sideBarTitle.foreground": "#686868",
+        "editorLineNumber.foreground": "#0c7250",
+        "editorCursor.foreground": "#d00a0a",
         "editor.selectionBackground": "#9ce6bc",
         "statusBar.background": "#d0ebd9",
-        "statusBar.foreground": "#095209",
+        "statusBar.foreground": "#686868",
         "terminal.background": "#e5f7ed",
-        "terminal.foreground": "#095209",
+        "terminal.foreground": "#686868",
         "list.activeSelectionBackground": "#9ce6bc",
         "list.hoverBackground": "#c1e8d2"
     },
@@ -29,7 +29,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#494949"
+                "foreground": "#686868"
             }
         },
         {
@@ -39,7 +39,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#921010"
+                "foreground": "#d00a0a"
             }
         },
         {
@@ -61,7 +61,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#921010"
+                "foreground": "#d00a0a"
             }
         },
         {
@@ -85,7 +85,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#5b470a"
+                "foreground": "#866117"
             }
         },
         {
@@ -101,7 +101,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#494908"
+                "foreground": "#69690b"
             }
         },
         {
@@ -112,8 +112,8 @@
                 "variable.parameter.fsharp"
             ],
             "settings": {
-                "fontStyle": "italic underline",
-                "foreground": "#494908"
+                "fontStyle": "italic",
+                "foreground": "#69690b"
             }
         },
         {
@@ -124,7 +124,7 @@
                 "markup.inline.raw.string.markdown"
             ],
             "settings": {
-                "foreground": "#6e3d0c"
+                "foreground": "#9b540c"
             }
         },
         {
@@ -139,7 +139,7 @@
                 "entity.name.function.python"
             ],
             "settings": {
-                "foreground": "#1141a0"
+                "foreground": "#0c59f2"
             }
         },
         {
@@ -148,8 +148,8 @@
                 "storage.type.function.python"
             ],
             "settings": {
-                "fontStyle": "bold underline",
-                "foreground": "#1141a0"
+                "fontStyle": "bold",
+                "foreground": "#0c59f2"
             }
         },
         {
@@ -167,8 +167,8 @@
                 "entity.name.type.ada"
             ],
             "settings": {
-                "fontStyle": "underline",
-                "foreground": "#6514b7"
+                "fontStyle": "bold",
+                "foreground": "#8c30e8"
             }
         },
         {
@@ -180,7 +180,7 @@
                 "support.constant"
             ],
             "settings": {
-                "foreground": "#800e80"
+                "foreground": "#b313b3"
             }
         },
         {
@@ -198,7 +198,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#095252"
+                "foreground": "#0c7272"
             }
         },
         {
@@ -208,7 +208,7 @@
                 "markup.italic.markdown"
             ],
             "settings": {
-                "foreground": "#800e80"
+                "foreground": "#9f0ce8"
             }
         },
         {
@@ -219,7 +219,7 @@
                 "markup.quote.markdown"
             ],
             "settings": {
-                "foreground": "#09523a"
+                "foreground": "#0c7250"
             }
         }
     ]

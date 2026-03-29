@@ -1,10 +1,10 @@
-# Seafoam Theme
+# Intrigued-Theme
 
 A high-contrast Visual Studio Code color theme designed around a calming, tinted seafoam green background (`#e5f7ed`).
 
 ## Design Philosophy
 
-1. **Accessibility**: All foreground colors and text highlighting strictly meet or exceed the **WCAG contrast ratio of 8.0:1**, ensuring excellent legibility.
+1. **Accessibility**: All foreground colors and text highlighting strictly meet or exceed the **WCAG contrast ratio of 4.5:1**, ensuring legibility while allowing a vibrant, wider color palette.
 2. **Faber Birren Principles**: Color assignments are heavily inspired by Faber Birren's theories of color in industrial workspaces. Critical controls (control flow) use alert colors like bold red, while operational units (functions) use structured colors like blue. For a full breakdown of the color choices, see [RATIONALE.md](./RATIONALE.md).
 
 ## Emphasized Tokens
@@ -17,7 +17,7 @@ The theme is optimized for general use but includes specific, granular token par
 * **Markdown**
 * **F#**
 
-**Note**: To reduce visual noise, operators (e.g., `+`, `-`, `=`), brackets, braces, and parentheses are explicitly stripped of any bolding, italics, or underlining.
+**Note**: To reduce visual noise, operators (e.g., `+`, `-`, `=`), brackets, braces, and parentheses are explicitly stripped of any bolding or italics. The theme prefers bold and italics for emphasis, completely avoiding underlining.
 
 ---
 
@@ -25,8 +25,8 @@ The theme is optimized for general use but includes specific, granular token par
 
 If you wish to change the theme colors or add support for new language tokens:
 
-1. **Edit the JSON File**: Open `themes/Seafoam-color-theme.json` and modify the colors or token scopes.
-2. **Contrast Checks**: When adding new colors, ensure they maintain a contrast ratio of > 8.0 against the `#e5f7ed` background.
+1. **Edit the JSON File**: Open `themes/Intrigued-color-theme.json` and modify the colors or token scopes.
+2. **Contrast Checks**: When adding new colors, ensure they maintain a contrast ratio of >= 4.5 against the `#e5f7ed` background.
 
 ## Building the Extension
 
@@ -44,7 +44,7 @@ If you modify the source files, you must rebuild the extension package (`.vsix`)
    vsce package
    ```
 
-   This will generate a new `seafoam-theme-0.0.1.vsix` file.
+   This will generate a new `intrigued-theme-0.0.1.vsix` file.
 
 ## Installation Instructions
 
@@ -53,7 +53,7 @@ If you modify the source files, you must rebuild the extension package (`.vsix`)
 You can install the compiled `.vsix` extension directly via the VS Code CLI:
 
 ```bash
-code --install-extension seafoam-theme-0.0.1.vsix
+code --install-extension intrigued-theme-0.0.1.vsix
 ```
 
 ### Method 2: Visual Studio Code UI
@@ -62,6 +62,6 @@ code --install-extension seafoam-theme-0.0.1.vsix
 2. Go to the **Extensions** view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
 3. Click the `...` (More Actions) menu in the top right of the Extensions panel.
 4. Select **Install from VSIX...**
-5. Navigate to the folder containing this repository and select the `seafoam-theme-0.0.1.vsix` file.
+5. Navigate to the folder containing this repository and select the `intrigued-theme-0.0.1.vsix` file.
 
-Once installed, go to **File > Preferences > Color Theme** (or use the Command Palette: `Preferences: Color Theme`) and select **Seafoam** from the list.
+Once installed, go to **File > Preferences > Color Theme** (or use the Command Palette: `Preferences: Color Theme`) and select **Intrigued-Theme** from the list.
