@@ -21,9 +21,10 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
 ### 2. Operational Equipment and Functions (Blue - `#0c59f2`)
 * **Birren Principle**: Blue is used for notices, equipment under repair, or operational controls.
 * **Software Application**: Used for functions, methods, and definitions. Functions are the machines and operational units of the code.
-* **Emphasis**: Regular or **Bold** for definitions.
+* **Emphasis**: **Bold** to ensure function identifiers are highly apparent to the user.
 * **Language Specific Tokens**:
-    * **Python**: `entity.name.function.python`, `storage.type.function.python` (**Bold**)
+    * **General**: `entity.name.function`, `support.function`
+    * **Python**: `entity.name.function.python`, `storage.type.function.python`
     * **C++**: `entity.name.function.call.cpp`, `entity.name.function.definition.cpp`
     * **Ada**: `entity.name.function.ada`, `entity.name.subprogram.ada`
 
@@ -39,7 +40,7 @@ All foreground colors are mathematically calculated to provide a minimum Web Con
 
 ### 4. Structural Types and Blueprints (Purple - `#8c30e8` & Dark Teal - `#0c7250`)
 * **Birren Principle**: Purple indicates specific hazards (radiation), but in a modern context, we use it to represent the structural blueprints and rigid definitions.
-* **Software Application**: Used for classes, types, and structural definitions. Types provide the foundational structure of the data. Bolding emphasizes their role as defined, rigid constructs.
+* **Software Application**: Used for classes, types, and structural definitions. Types provide the foundational structure of the data. Bolding ensures these type identifiers are highly apparent.
 * **Emphasis**: **Bold**.
 * **Language Specific Tokens**:
     * **C++**: `entity.name.type.cpp`, `entity.name.type.class.cpp`
